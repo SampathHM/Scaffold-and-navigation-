@@ -33,7 +33,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.scaffold_basicappbar.ui.theme.ScaffoldBasicAppBarTheme
 
 class MainActivity : ComponentActivity() {
-    @OptIn(ExperimentalMaterial3Api::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
